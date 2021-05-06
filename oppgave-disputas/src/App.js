@@ -11,8 +11,8 @@ function App() {
         }
     }
 
-    const renderDataItem = (displayId, description, type ) => {
-        return <div className={"data-inner-container"}>
+    const renderDataItem = (id,displayId, description, type ) => {
+        return <div key={id} className={"data-inner-container"}>
             <div id={type} className={"display-id"}>{displayId}</div>
             <div className={"data"}>{description}</div>
         </div>
@@ -29,7 +29,7 @@ function App() {
       <header>
          <div className={"header-content"}>
              <div className={"logo"}>
-                 <img src={'../logo_icon_blå.png'}/>
+                 <img src={'../logo_icon_blå.png'} alt={"logo"}/>
              </div>
              <div className={"name"}>
                  <p>Disputas</p>
@@ -40,7 +40,7 @@ function App() {
         <div className={"main-data-container"}>
                 <div className={"data-container"}>
                     {data.map((data) => (
-                        renderDataItem(data.displayId, data.description, data.type)
+                        renderDataItem(data.id,data.displayId, data.description, data.type)
                     ))}
                 </div>
         </div>

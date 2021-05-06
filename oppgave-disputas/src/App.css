@@ -76,12 +76,13 @@ img{
     background-color: indianred;
     color: #ffffff;
     font-family: 'Lora', serif;
-    width : 10%;
+    min-width : 10%;
     height:100%;
     border-radius: 50%;
 }
 .data{
     width: 75%;
+    min-width : 50%;
     align-self: center;
     font-family: 'Lora', serif;
 }
