@@ -1,0 +1,47 @@
+{
+  "data": [
+    {
+      "type": "premise",
+      "id": "1",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "displayId": "P1"
+    },
+
+    {
+      "type": "premise",
+      "id": "2",
+      "description": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "displayId": "P2"
+    },
+    {
+      "type": "premise",
+      "id": "3",
+      "description": "Duis aute irure dolor in reprehenderit in voluptate velit esse.",
+      "displayId": "P3"
+    },
+    {
+      "type": "conclusion",
+      "id": "4",
+      "description": "Ut enim ad minim veniam, quis nostrud exercitation ullamco.",
+      "displayId": "C1"
+    },
+    {
+      "type": "conclusion",
+      "id": "5",
+      "description": "Laboris nisi ut aliquip ex ea commodo consequat.",
+      "displayId": "C2"
+    },
+    {
+      "type": "unsorted",
+      "id": "6",
+      "description": "Cillum dolore eu fugiat nulla pariatur.",
+      "displayId": "S1"
+    },
+    {
+      "type": "unsorted",
+      "id": "7",
+      "description": "Excepteur sint occaecat cupidatat non proident, sunt in culpa.",
+      "displayId": "S2"
+    }
+  ]
+}
